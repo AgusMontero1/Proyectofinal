@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+}
+
+header {
+  background-image: url(../imagenes/fondo1.jpg);
+  background-size: cover;
+  height: 380px;
+}
+
+h1 {
+  color: rgba(209, 207, 107, 0.856);
+  font-size: 75px;
+  text-align: center;
+  font-family: "Dancing Script";
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+ul li a {
+  color: rgba(206, 193, 121, 0.856);
+  text-decoration: none;
+}
+ul li a:hover {
+  color: salmon;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+.conteiner {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.body-home {
+  background-color: #deb887;
+}
+
+#somos-bodega-del-valle {
+  text-align: center;
+  padding: 200px;
+}
+
+#Nuestra-seleccion-para-vos {
+  background-color: black;
+  color: beige;
+  text-align: center;
+}
+
+#Nuestra-seleccion-para-vos p {
+  display: none;
+}
+
+#Nuestra-seleccion-para-vos .conteiner {
+  padding: 150px 0px;
+}
+
+#Nuestra-seleccion-para-vos h2 {
+  margin-top: 0;
+  font-size: 3em;
+}
+
+#Nuestra-seleccion-para-vos .cartas {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.cartas:first-child {
+  background-color: #9c745d;
+}
+
+.cartas:nth-child(2) {
+  background-color: #9c745d;
+}
+
+.cartas:nth-child(3) {
+  background-color: #9c745d;
+}
+
+#caracteristicas {
+  text-align: center;
+  padding: 20px 12px;
+}
+
+ffe4c4 #caracteristicas ol {
+  margin: 12px 0px;
+  font-weight: bold;
+}
+
+#veni-a-vernos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+  background-color: darkslategrey;
+  height: 65%;
+  opacity: 0.55;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .conteiner {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.carrusel-titulo {
+  text-align: center;
+  padding: 200px;
+}
+
+#carouselExample {
+  border-radius: 50%;
+  width: auto;
+  position: relative;
+  bottom: 6px;
+  margin-right: 5px;
+  margin-left: 200px;
+  margin-top: 250px;
+}
+
+.d-block-w-100 {
+  width: 80%;
+  height: 800px;
+}
+
+.Body-Historia {
+  background-color: khaki;
+}
+
+.nuestra-historia {
+  background-color: rgb(228, 187, 137);
+  color: darkslategray;
+}
+
+.carrusel-hsitoria {
+  font-size: 75px;
+  text-align: center;
+  font-family: "Dancing Script";
+  max-width: 1800px;
+  margin: auto;
+  padding: 400px;
+}
+
+.img-conteiner {
+  text-align: center;
+  padding: 100px;
+}
+
+.titulo2 {
+  margin-top: 210px;
+  align-items: center;
+  text-align: center;
+}
+
+.texto {
+  margin-top: 30px;
+}
+
+.card-title {
+  background-color: mediumpurple;
+}
+
+.card-body {
+  background-color: #9c745d;
+}
+
+.Blog {
+  align-items: center;
+  text-align: center;
+  background-color: #9c745d;
+  margin-top: 55px;
+}
+
+.card-mb-3 {
+  margin-top: 25px;
+  margin: 25%;
+}
+
+.marcas {
+  background-color: burlywood;
+  align-items: center;
+  text-align: center;
+}
+
+.texto-marcas {
+  margin-top: 50px;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.contactanos-1 {
+  margin-top: 100px;
+  background-color: #9c745d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.lista-desordenada {
+  margin-top: 35px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  display: inline-block;
+}
+
+.CONTACTANOS {
+  color: crimson;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+
+.contact {
+  text-align: justify;
+  margin-top: 65px;
+  color: black;
+  margin: 7px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.mb-3 {
+  margin-top: 35px;
+}
+
+/*# sourceMappingURL=Style.css.map */
